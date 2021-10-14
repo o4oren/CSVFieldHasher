@@ -1,5 +1,6 @@
 module.exports = {
     packagerConfig: {
+        executableName: "NPIHasher",
         osxSign: {
             identity: process.env["APPLE_DEVELOPER_ACCOUNT"],
             hardenedRuntime: true,
