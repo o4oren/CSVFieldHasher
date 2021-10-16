@@ -12,7 +12,6 @@ export const MainWindow = () => {
     const [headers, setHeaders] = useState([]);
     const { ipcRenderer } = window.require("electron");
 
-    // register listeners
     useEffect(() => {
         console.log('mounting')
         ipcRenderer.on("select-file-reply", (event, arg) => {
