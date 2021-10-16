@@ -76,7 +76,6 @@ export const MainWindow = () => {
                 Error!
             </div>
         }
-
     }
 
     function getColumnSelector() {
